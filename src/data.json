@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Whey Protein Gold (Isolate)",
+        "price": 3800,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Proteina"
+      },  
+      {
+        "id": 2,
+        "name": "Whey Protein Platinum (Hidrolyzed)",
+        "price": 4200,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Proteina"
+      }, 
+      {
+        "id": 3,
+        "name": "Whey Protein Mix",
+        "price": 1600,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Proteina"
+      },
+      {
+        "id": 4,
+        "name": "Creatina Monohidrato",
+        "price": 2000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Creatina"
+      },
+      {
+        "id": 5,
+        "name": "Creatina Monohidrato Micronizada",
+        "price": 1700,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Creatina"
+      },
+      {
+        "id": 6,
+        "name": "Multivitaminico",
+        "price": 1350,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Otros"
+      },
+      {
+        "id": 7,
+        "name": "Straps",
+        "price": 800,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Otros"
+      }, 
+      {
+        "id": 8,
+        "name": "Cinturon de powerlifting",
+        "price": 1800,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 10,
+        "category": "Otros"
+      }
+]
