@@ -2,20 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
-import {
-  Flex,
-  Box,
-  Spacer,
-  Heading,
-  Container,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Button,
-  Text,
-  Divider,
-} from "@chakra-ui/react";
+import {Flex, Box, Spacer, Heading, Container, Menu, MenuButton, MenuList, MenuItem, Button, Text, Divider,} from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 const NavBar = () => {
   return (
