@@ -13,18 +13,19 @@ import {
   MenuList,
   MenuItem,
   Button,
-  Avatar,
+  Text,
+  Divider,
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 const NavBar = () => {
   return (
     <>
-      <Container maxW="150rem" bg="gray.300" color="#262626">
+      <Container maxW="150rem" bg="#3E7CB1" color="blackAlpha.900">
         <Flex alignItems="center" gap="2">
           
           <Box p="10" w="300px" h="100">
-            <Heading size="xl">
-              <Link to={"/"}>Lightweight</Link>
+            <Heading size="2xl">
+              <Link to={"/"}> Lightweight</Link>
             </Heading>
           </Box>
           <Spacer />
@@ -34,8 +35,8 @@ const NavBar = () => {
                 <MenuButton
                   as={Button}
                   size="lg"
-                  variant="outline"
-                  colorScheme="blue"
+                  variant="solid"
+                  colorScheme="twitter"
                   m="5"
                 >
                   Catalogo
@@ -46,8 +47,8 @@ const NavBar = () => {
               <MenuButton
                 as={Button}
                 size="lg"
-                variant="outline"
-                colorScheme="blue"
+                variant="solid"
+                colorScheme="twitter"
                 rightIcon={<ChevronDownIcon />}
                 m="5"
               >
@@ -73,6 +74,7 @@ const NavBar = () => {
             </Link>
           </Box>
         </Flex>
+        <Divider></Divider>
       </Container>
     </>
   );

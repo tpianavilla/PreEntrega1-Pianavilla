@@ -2,34 +2,38 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Center, Card, CardBody, CardHeader, Image, Heading, Text, Divider, Stack, CardFooter, Button, Box } from "@chakra-ui/react";
 
-const Item = ({ id, name, stock, category, image }) => {
+const Item = ({ id, stock, name, image, category }) => {
     return (
         <div>
             <div key={id}>
-                <Center p="1rem">
+                <Center p="3rem">
                     <Card maxW='sm'>
-                        <CardBody>        
+                        <CardBody>
                             <Image
                                 src={image}
                                 alt={name}
-                                borderRadius='lg'
-                            />                           
-                            <Stack mt='6' spacing='3'>
+                                borderRadius='md'
+                            />
+                            <Stack mt='7' spacing='3'>
                                 <Heading size='md'>{name}</Heading>
-                                <Text color={'blue.600'}>
+                                <Text color={'blackAlpha.800'}>
                                     Categoria: {category}
                                 </Text>
-                                <Text color='bl.600' fontSize='2xl'>
+                                <Text color='green.300' fontSize={'xl'}>
                                     Stock: {stock}
                                 </Text>
                             </Stack>
                         </CardBody>
                         <Divider />
+                        <Center>
                         <CardFooter>
-                            <Button variant='outline' colorScheme='teal'>
-                                <Link to={`/item/${id}`}>Detalles</Link>
+                            
+                            <Button variant='solid' colorScheme='twitter' size={'md'}>
+                                <Link to={`/item/${id}`}>Ver detalles</Link>
                             </Button>
+                            
                         </CardFooter>
+                        </Center>
                     </Card>
                 </Center>
             </div>
